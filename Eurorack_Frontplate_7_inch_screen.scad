@@ -102,8 +102,8 @@ module pots()
 
 module switch()
 {
-    translate([244,84,0]) circle(d=7);
-    translate([244,104,0]) circle(d=7);   
+    translate([244,84,0]) circle(d=6.3);
+    translate([244,104,0]) circle(d=6.3);   
 }
 
 
