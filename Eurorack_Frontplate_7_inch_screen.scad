@@ -1,6 +1,7 @@
 
 /*
-eurorack frontplate template
+eurorack frontplate for 7 inch screen
+standard capacitive touch 7 inch 1024x600 hdmi display v.2.03
 */
 
 $fn=60;
@@ -22,7 +23,10 @@ holeToEdgemm=1.5+3.2/2;
 oblongHoleWidth=9.4;
 
 
-// code
+/*
+code
+*/
+
 difference() {
 translate([0,0])rotate([0,0,0])frontplate();
 #translate([0,0])rotate([0,0,0])screenhole();
@@ -87,7 +91,8 @@ module minijack()
     translate([16,84,0]) circle(d=5.9);
     translate([16,104,0]) circle(d=5.9);
 }
-  
+
+// potentiometers
 module pots()
 {
     translate([226,24,0]) circle(d=7);
@@ -100,6 +105,7 @@ module pots()
     translate([244,64,0]) circle(d=7);
 }
 
+// switchs
 module switch()
 {
     translate([244,84,0]) circle(d=6.3);
