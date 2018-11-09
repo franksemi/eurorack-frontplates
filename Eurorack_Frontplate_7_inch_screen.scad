@@ -95,20 +95,20 @@ module minijack()
 // potentiometers
 module pots()
 {
-    translate([226,24,0]) circle(d=7);
+ // translate([226,24,0]) circle(d=7);
     translate([226,44,0]) circle(d=7);
     translate([226,64,0]) circle(d=7);
     translate([226,84,0]) circle(d=7);
-    translate([226,104,0]) circle(d=7);
     translate([244,24,0]) circle(d=7);
     translate([244,44,0]) circle(d=7);
     translate([244,64,0]) circle(d=7);
+    translate([244,84,0]) circle(d=7);
 }
 
 // switchs
 module switch()
 {
-    translate([244,84,0]) circle(d=6.3);
+    translate([226,104,0]) circle(d=6.3);
     translate([244,104,0]) circle(d=6.3);   
 }
 
